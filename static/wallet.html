@@ -38,56 +38,58 @@
             
     </div>
     <div class="col d-flex align-items-center justify-content-center pl-0 pr-5" id="header">
-		<div class="col-lg-4 col-md-4 col-sm-12 text-center align-self-center">
-			<div class="row">
-				<div class="col-lg-6 col-md-12 col-sm-12 logo">
-					<a href="https://dero.io" target="_blank">
-						<img src="/static/logo.png" alt="Logo" height="30">
-					</a>
-				</div>
-				<div class="col-lg-3 col-md-12 col-sm-12 title">
-					<span>DERO</span>
-					<span data-i18n="tr_wallet">Wallet</span>
-				</div>
-			</div>
-		</div>
-		<div class="col-lg-8 col-md-8 col-sm-12">
-			<div class="row">
-				<div class="col-lg-10 col-md-8 col-12">
-					<div class="row wallet-online justify-content-center align-items-center d-flex">
-						<div class="col-lg-2 wallet_local_name d-flex justify-content-center">
-							My_wallet
-						</div>
-						<div style="word-break: break-all;" class="col-lg-7 align-self-center ">
-							<p class="no-m o-h wallet_address">
-								Loremipsumdolor,sitametconsecteturadipisicingelit...
-							</p>
-						</div>
-						<div class="col-lg-2 d-flex justify-content-center">
-							<!--<button class="btn btn-b-2 btn-sm btn-copy" data-clipboard-action="copy" data-clipboard-target="#wallet_address_id">
-						  Copy
-						  </button>-->
-							<p class="no-m">
-								<button class="btn btn-b-3 btn-sm btn-logout" data-i18n="control_wallet_logout" onClick="promiseWorker.postMessage({cmd:'close_wallet',id:secretid});">
-						  LogOut
-						  </button>
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="d-flex align-items-center p-0 m-0" id="myBlockTheme">
-					<div id="blackTheme"></div>
-					<div id="whiteTheme"></div>
-				</div>
-				<div class="col-lg-1 col-md-3 col-12 text-center d-flex align-items-center">
-					<p class="no-m">
-						<select class="selectpicker mr-sm-2 btn btn-b-2 btn-lang btn-sm" data-width="fit" id="language_picker">
-					   <option class="lang" data-content='<span class="flag-icon flag-icon-us"></span> English' data-lang="en">English</option>
-					</select>
-					</p>
-				</div>
-			</div>
-		</div>
+        <div class="row ml-0">
+            <div class="col-lg-4 col-md-4 col-sm-12 text-center align-self-center">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12 logo">
+                        <a href="https://dero.io" target="_blank">
+                            <img src="/static/logo.png" alt="Logo" height="30">
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-12 col-sm-12 title">
+                        <span>DERO</span>
+                        <span data-i18n="tr_wallet">Wallet</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-12">
+                <div class="row">
+                    <div class="col-lg-10 col-md-8 col-12">
+                        <div class="row wallet-online">
+                            <div class="col-lg-2 wallet_local_name d-flex justify-content-center">
+                                My_wallet
+                            </div>
+                            <div class="col-lg-7 align-self-center">
+                                <p class="no-m o-h wallet_address">
+                                    Loremipsumdolor,sitametconsecteturadipisicingelit...
+                                </p>
+                            </div>
+                            <div class="col-lg-2 d-flex justify-content-center">
+                                <!--<button class="btn btn-b-2 btn-sm btn-copy" data-clipboard-action="copy" data-clipboard-target="#wallet_address_id">
+                              Copy
+                              </button>-->
+                                <p class="no-m">
+                                    <button class="btn btn-b-3 btn-sm btn-logout" data-i18n="control_wallet_logout" onClick="promiseWorker.postMessage({cmd:'close_wallet',id:secretid});">
+                              LogOut
+                              </button>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center p-0 m-0" id="myBlockTheme">
+                        <div id="blackTheme"></div>
+                        <div id="whiteTheme"></div>
+                    </div>
+                    <div class="col-lg-1 col-md-3 col-12 text-center">
+                        <p class="no-m">
+                            <select class="selectpicker mr-sm-2 btn btn-b-2 btn-lang btn-sm" data-width="fit" id="language_picker">
+                           <option class="lang" data-content='<span class="flag-icon flag-icon-us"></span> English' data-lang="en">English</option>
+                        </select>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <!-- show menu to create/open wallet -->
     <div class="p-0 container-fluid d-flex justify-content-between" id="content">
