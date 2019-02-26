@@ -1022,7 +1022,7 @@
             if (translations[stored_lang] != 'undefined') {
                 i18next.changeLanguage(stored_lang, (err, t) => {
                     // Select the real language
-                    $('#language_picker > option[data-lang="' + stored_lang + '"').attr('selected', 'selected');
+                    $('#language_picker > option[data-lang="' + stored_lang + '"]').attr('selected', 'selected');
                     if (err) return console.log('something went wrong loading', err);
                 });
             }
@@ -1031,7 +1031,7 @@
 
             // check language exists
             if (translations[first_lang] != undefined) {
-                $('#language_picker > option[data-lang="' + first_lang + '"').attr('selected', 'selected');
+                $('#language_picker > option[data-lang="' + first_lang + '"]').attr('selected', 'selected');
                 i18next.changeLanguage(first_lang, (err, t) => {
                     if (err) return console.log('something went wrong loading', err);
 
@@ -1042,7 +1042,7 @@
                 if (parts.length >= 2) {
 
                     if (translations[parts[0]] != undefined) {
-                        $('#language_picker > option[data-lang="' + parts[0] + '"').attr('selected', 'selected');
+                        $('#language_picker > option[data-lang="' + parts[0] + '"]').attr('selected', 'selected');
                         i18next.changeLanguage(parts[0], (err, t) => {
                             if (err) return console.log('something went wrong loading', err);
                         });
