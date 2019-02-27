@@ -361,10 +361,9 @@ div#header>div.row>div.col-lg-8>div.row {
         width: 100%;
         justify-content: center!important;
         margin-bottom: 1rem!important;
+        margin-top: 15px !important;
     }
-}
 
-@media screen and (max-width: 425px) {
     div#header {
         flex-direction: column;
         padding-right: 0px !important;
@@ -374,8 +373,8 @@ div#header>div.row>div.col-lg-8>div.row {
         justify-content: center!important;
         margin-bottom: 5px;
     }
+}
 
-    #myBlockTheme {
-        margin-top: 15px !important;
-    }
+#header_address {
+    cursor: pointer;
 }
