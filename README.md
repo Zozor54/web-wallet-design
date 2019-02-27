@@ -10,7 +10,7 @@
 
 **Dero Web Wallet runs completely in browser and requires Dero daemon only to function without any third party support or modifications. Any seed/key/details never leaves your browser.**
 
-# Back Theme
+# Black Theme
 
 ![DERO Black theme](https://i.imgur.com/FZxtCyD.png)
 
