@@ -939,16 +939,16 @@ var fr = { "translation":
         "tr_success":  "Succès ",
 
         "carousel_fast_title":  "Transactions rapides ",
-        "carousel_fast_text":  "DERO transfère instantanément en moins de 12 secondes. ",
-        "carousel_privacy_title":  "Le respect de la vie privée dès la conception ",
+        "carousel_fast_text":  "Dero effectue des transactions en moins de 12 secondes. ",
+        "carousel_privacy_title":  "Le respect de la vie privée dès la conception. ",
         "carousel_privacy_text":  "Le réseau DERO dispose d'une confidentialité absolue pour toutes les transactions. ",
         "carousel_privacy_text2":  "Personne ne peut savoir qui a dépensé ou reçu quoi, quand et où. ",
         "carousel_easy_title":  "Facile à utiliser ",
         "carousel_easy_text":  "Nous sommes disponible sur les supports Windows, Mac, Linux, UNIX, BSD, Solaris, Android et iOS. ",
         "carousel_tech_title":  "Leader technologique. ",
-        "carousel_tech_text":  "Pionnier dans cette technologie avec l'innovation et les fonctionnalités telles que les DAG, les bullet-proofs et le réseau crypté en TLS. ",
+        "carousel_tech_text":  "Pionnier dans cette technologie avec l'innovation et les fonctionnalités telles que les DAG, les bulletproofs et un réseau entièrement crypté en SSL/TLS. ",
         "carousel_orig_title":  "Développeurs initiaux ",
-        "carousel_orig_text":  "Le projet DERO a été développé à partir de zéro et est activement développé par les développeurs initiaux. ",
+        "carousel_orig_text":  "Le projet Dero a été développé à partir de zéro et est activement développé par les développeurs initiaux. ",
         "carousel_touch_title":  "Entrer en contact ",
         "carousel_touch_text":  "Vous pouvez aider et contribuer au projet par des discussions, des suggestions, un développement, des tests ou tout simplement en partageant le projet. ",
         "front_available_wallet":  "Portefeuilles disponibles ",
@@ -977,7 +977,7 @@ var fr = { "translation":
 
         "tab_send_sendto_label":  "Envoyer à l'adresse DERO ",
         "tab_send_sendto_address_placeholder":  "Entrez une adresse DERO ",
-        "tab_send_amount_label":  "Montant DERO ",
+        "tab_send_amount_label":  "Montant de DERO ",
         "tab_send_amount_placeholder":  "Entrez le montant de DERO à envoyer ",
         "tab_send_paymentid_label":  "ID de paiement (optionnel): ",
         "tab_send_paymentid_placeholder":  "ID de paiement optionnel (en hexadécimal) ",
@@ -990,7 +990,7 @@ var fr = { "translation":
         "tab_receive_i8_paymentid":  "ID de paiement d'adresse intégrée 8 (visualisation disponible seulement pour l'expéditeur et le destinateur) ",
 
         "tab_receive_generate":  "Générer une adresse intégrée ",
-        "tab_history_load":  "Charger l'historique des transactions",
+        "tab_history_load":  "Charger l'historique des transactions ",
         "tab_history_export_csv":  "Exporter vers CSV ",
 
         "tx_confirmation":  "Confirmation de transfert ",
